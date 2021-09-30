@@ -1,0 +1,137 @@
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto/Roboto-Bold.ttf);
+  
+}
+
+#page {
+  padding: 10px 10px;
+  margin: 2% 2%;
+  width: 95vw;
+  margin: auto;
+  overflow: visible;
+  height: 95vh;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+}
+
+#nav{
+  text-align: right;
+  font-size: xx-large;
+  padding: 10px;
+  padding-right: 15px;
+  background-color: violet;
+}
+
+a {
+  color: rgb(42, 32, 184);
+  padding: 25px;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: gray;
+}
+  
+#list {
+  list-style-type: none;
+  padding: 10px;
+}
+.text {
+  text-size-adjust: 30%;
+  font-family: sans-serif;
+  font-size: larger;
+  padding: 2em;
+  }
+  h1{
+    text-size-adjust: 50%;
+    font-family: sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+  h2{
+    text-size-adjust: 40%;
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  p+h3{
+      text-size-adjust: 30%;
+      font-family: sans-serif;
+      font-size: larger;
+    }
+
+.card {
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+.card2 {
+  background: inherit;
+  padding: 10px 10px 10px 10px;
+  width: 85vw;
+  text-align: justify;
+  text-size-adjust: 25%;
+  font-size: medium;
+  box-shadow: 10px 10px 12px 5px darkgrey;
+  word-wrap: normal;
+  align-: center;
+
+}
+#portofolio{
+  padding: inherit;
+  text-shadow: rgb(110, 108, 108);
+  text-align: center;
+  text-decoration-line: none;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+  word-spacing: 10px;
+ }
+
+img{
+  width: 100%;
+}
+.portofolio{
+  margin: 30%;
+  padding: 20px 20px 20px 20px;
+}
+.button {
+    border: pink;
+    padding: 30px 30px 30px 30px ;
+    display: inline-block;
+    font-size: medium;
+    margin: 4px  4px 4px 20px;
+    cursor: pointer;
+    background: linear-gradient(blue, pink);
+    align-self: right;
+  }
+  
+.right {
+  padding-left: 100px;
+  padding-top: 100px;
+  width: 50%;
+}
+  
+.left {
+  box-shadow: 10px 10px 12px 5px darkgrey;
+  padding: 15px;
+  flex:1;
+  margin: 10px;
+}
+
+.copyright {
+  width: 100%;
+  margin: auto;
+}
