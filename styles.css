@@ -128,7 +128,7 @@ button {
     padding: 20px 20px 20px 20px ;
     display: inline-block;
     font-size: medium;
-    margin: 2em 2em;
+    margin: 10em 8em 3em 8em;
     cursor: pointer;
     background:inherit;
     border-radius: 3em;
@@ -137,8 +137,7 @@ button {
     font-family: sans-serif;
     font-weight: bold;
     word-spacing: 1em;    
-    margin-left: 6em;
-  }
+ }
   .button:hover {
     background-color: blue;
     color: white;
