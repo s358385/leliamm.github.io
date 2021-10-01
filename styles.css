@@ -137,7 +137,7 @@ button {
     font-family: sans-serif;
     font-weight: bold;
     word-spacing: 1em;    
-    margin-left: 2em;
+    margin-left: 6em;
   }
   .button:hover {
     background-color: blue;
