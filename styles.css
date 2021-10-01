@@ -47,6 +47,9 @@ a {
 a:hover{
   color: gray;
 }
+ html {
+    scroll-behavior: smooth;
+  }
   
 #list {
   list-style-type: none;
